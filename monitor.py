@@ -3,7 +3,7 @@ import sys
 
 
 def display_alert(message):
-  for _ in range(2):
+  for _ in range(6):
     print('\r* ', end='')
     sys.stdout.flush()
     sleep(1)
