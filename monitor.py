@@ -3,14 +3,11 @@ import sys
 
 
 def display_alert(message):
-  print(message)
-  for _ in range(6):
+  for _ in range(2):
     print('\r* ', end='')
     sys.stdout.flush()
     sleep(1)
-    print('\r *', end='')
-    sys.stdout.flush()
-    sleep(1)
+  print(message)
 
 
 def is_temperature_ok(temperature):
